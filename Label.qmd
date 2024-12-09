@@ -1,0 +1,103 @@
+---
+title: "LabelStudio"
+author: "Acuña Ramirez, E., Roman Peña,J & Grandez Castro, B"
+format: 
+  html:
+    toc: true    
+    toc-location: left
+    number-sections: true
+    embed_resources: true
+    output-file: index
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# INTRODUCCIÓN
+
+![](imagen1.png)
+
+Label Studio es una herramienta open-source de etiquetado de datos. Es
+diseñada para etiquetar, anotar y clasificar datos para entrenar modelos
+de aprendizaje automático. Es altamente versátil y compatible con una
+amplia variedad de formatos de datos, incluyendo imágenes, texto, audio,
+video y datos multietiqueta. Es ideal para preparar conjuntos de datos
+para tareas como reconocimiento de objetos, clasificación de texto,
+transcripción de audio, entre otras aplicaciones
+
+# CARACTERISTICAS
+
+## Multiples tipos de datos
+
+Como imágenes, audio, texto, HTML, series temporales y vídeo.
+
+![](imagen2.png)
+
+## Multiusuario
+
+Con registro e inicio de sesión multiusuario, cuando creas una anotación
+se vincula a tu cuenta.
+
+## Múltiples proyectos
+
+Para trabajar en todos sus conjuntos de datos en una sola instancia.
+
+## Formatos de etiqueta configurables
+
+Permiten personalizar la interfaz visual para satisfacer sus necesidades
+específicas de etiquetado
+
+![](imagen3.png)
+
+## Importación
+
+Desde archivos o desde el almacenamiento en la nube en Amazon AWS S3,
+Google Cloud Storage, o archivos JSON, CSV, TSV, RAR y ZIP.
+
+![](imagen4.png)
+
+## Exportación
+
+A través del módulo label-studio-converter., que es una librería que
+puede tomar el formato interno de Label Studio basado en JSON y dar
+salida a algunos formatos de propósito general (JSON, CSV, TSV) o a
+formatos específicos del modelo como CONLL para etiquetadores textuales
+o Pascal VOC o COCO para modelos de visión por ordenador.
+
+## Integración
+
+Con modelos de aprendizaje automático para visualizar y comparar las
+predicciones de diferentes modelos y realizar el preetiquetado usando el
+SDK de Label Studio.
+
+![](imagen5.png)
+
+## Templates para etiquetado
+
+Label Studio incluye una variedad de plantillas para ayudar a etiquetar
+los datos además de permitir crear propias utilizando un lenguaje de
+configuración específicamente diseñado. Las plantillas y los casos de
+uso más comunes para el etiquetado incluyen los siguientes casos
+
+![](imagen6.jpg)
+
+<https://labelstud.io/templates/>
+
+## Comparación de Predicciones
+
+![](imagen7.gif)
+
+## Amplia comunidad en Github
+
+# INSTRUCCIONES PARA INSTALARLO EN ANACONDA
+
+## paso 1
+
+Ir a nuestro navegador de mayor preferencia y buscar ANACONDA <https://www.anaconda.com/download/success>
+
+![](imagen8.jpeg)
+
+
+
+
+
