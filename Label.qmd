@@ -1,8 +1,6 @@
 ---
 title: "LabelStudio"
-Course: "Programación y Análisis de datos"
-Date: "December 16"
-author: "Acuña Ramirez, E., Roman Peña,J & Grandez Castro, B"
+author: "Acuña Ramirez, E., Roman Peña,L & Grandez Castro, B"
 format: 
   html:
     toc: true    
@@ -15,6 +13,10 @@ editor:
     wrap: 72
 ---
 
+Curso: Programación y análisis de datos
+
+Date: 16 de diciembre del 2024
+
 # INTRODUCCIÓN
 
 ![](imagen1.png)
@@ -25,7 +27,7 @@ de aprendizaje automático. Es altamente versátil y compatible con una
 amplia variedad de formatos de datos, incluyendo imágenes, texto, audio,
 video y datos multietiqueta. Es ideal para preparar conjuntos de datos
 para tareas como reconocimiento de objetos, clasificación de texto,
-transcripción de audio, entre otras aplicaciones
+transcripción de audio, entre otras aplicaciones.
 
 # CARACTERISTICAS
 
