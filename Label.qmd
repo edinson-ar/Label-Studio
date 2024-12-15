@@ -1,5 +1,7 @@
 ---
 title: "LabelStudio"
+Course: "Programación y Análisis de datos"
+Date: "December 16"
 author: "Acuña Ramirez, E., Roman Peña,J & Grandez Castro, B"
 format: 
   html:
@@ -93,9 +95,101 @@ uso más comunes para el etiquetado incluyen los siguientes casos
 
 ## paso 1
 
-Ir a nuestro navegador de mayor preferencia y buscar ANACONDA <https://www.anaconda.com/download/success>
+Ir a nuestro navegador de mayor preferencia y buscar ANACONDA <https://www.anaconda.com/download/success> Después Clic en Download
 
 ![](imagen8.jpeg)
+
+## paso 2
+
+Ejecutar el instalador descargado. Luego dirigirse al buscador de windows
+y buscar Anaconda PowerShell Prompt para abrir el programa.
+
+![](imagen10.jpeg)
+
+## paso 3
+
+Dentro del programa ejecutar el siguiente código descrito en la página de label studio. <https://labelstud.io/>
+
+![](imagen11.jpeg)
+
+## paso 4
+
+Una vez ejecutado label-studio inmediatamente se abrirá en tu nevagador predeterminado. Crearás tu cuenta con tu correo para iniciar sesión cada vez que ingreses a la plataforma.
+
+![](imagen12.jpeg)
+
+# Importar Imágenes-Hojas de durazno
+
+Se ha utilzado label studio para procesar imágenes de hojas de durazno junto a una moneda. se tiene 50 imágenes como muestra representativa para el análisis y entrenamiento del modelo.  
+
+![Hoja de durazno y moneda](imagen13.jpg)
+
+Para importar estas imagenes a label-studio. Dirigirse a la opción import lo cual se tendrá dos opciones, mendiante URL o carpeta de archivos.
+
+![Se subio mediante Upload files](imagen14.jpeg)
+
+luego vamos a la opción settings, ir a labeling interface, dar click en browse templates y finalmente en la parte de COMPUTER VISION seleccionar Semantic segmentation with polygons.
+
+![Se observa la interfas de Semantic segmentation with polygons ya seleccionada](imagen15.jpeg)
+
+![](imagen16.jpeg)
+
+Una vez seleccionado esa opcion, realizar delimitación mediante segmentos lineales al borde de la hoja y moneda. Cada uno con un color diferente para clasificar imágenes.
+
+![Hoja delimitada](imagen17.jpeg)
+
+
+![Segmentación semántica de hoja y moneda realizado para las 50 imágenes ](imagen18.jpeg)
+
+Una vez seleccionado todo, se exporta al formato que desees, en nuestro caso es COCO que almacena la información de las imágenes, anotaciones y categorías de manera ordenada, permitiendo una fácil interpretación por los modelos.
+
+![Exportar en COCO facilita que las etiquetas sean procesadas por algoritmos de visión por computadora, lo que permite entrenar modelos con mayor precisión y compatibilidad](imagen19.jpeg)
+
+# Aplicaciones del análisis de hoja en la Agricultura
+
+Se tomará como ejemplo las hojas de durazno
+
+## Detección de hojas sanas y enfermas
+
+Utiliza Label Studio para etiquetar manualmente imágenes de hojas de durazno como:
+
+*Hoja sana*
+
+_Hoja enferma_ (con manchas, decoloraciones, plagas u otros síntomas visibles).
+
+Una vez anotadas, estas imágenes pueden servir para entrenar modelos de inteligencia artificial que detecten automáticamente hojas afectadas en nuevas imágenes.
+
+## Clasificación de tipos de plagas y enfermedades
+
+Etiqueta áreas específicas de las hojas donde se observen problemas como:
+
+*Manchas por hongos*.
+
+_Síntomas de deficiencias nutricionales (amarillamiento o necrosis)_.
+
+_Plagas (daños por insectos)_.
+
+
+## Detección automática de estrés hídrico o nutricional
+
+Síntomas como el amarillamiento (clorosis) o pérdida de turgencia pueden detectarse mediante etiquetado.
+
+Posteriormente, puedes entrenar modelos que identifiquen signos tempranos de estrés hídrico o deficiencia nutricional en cultivos de durazno.
+
+# CONCLUSIÓN
+
+Label Studio no es solo una herramienta de etiquetado; es una plataforma flexible y escalable que permite gestionar, automatizar y mejorar el etiquetado de datos, integrándose con proyectos complejos de inteligencia artificial y análisis agrícola. En el contexto agricola tiene un trabajo mas avanzado como el etiquetado inicial de hojas (manual o automático). entrenamiento de modelos de IA para detección de problemas (plagas, enfermedades, estrés). Validación y refinamiento de modelos usando nuevas imágenes etiquetadas. Monitoreo continuo de cultivos mediante análisis automatizados.
+su uso contribuye a la modernización del sector agricola, permitiendo el monitoreo automatizado y constante de cultivos, lo cual se traduce en mayor productividad, menor pérdida económica y un manejo más sostenible de los recursos.
+
+# REFERENCIAS BIBLIOGRÁFICAS
+
+Anaconda Software Distribution. (2024). Anaconda, Inc. Recuperado de <https://www.anaconda.com>
+
+Label Studio. (2024). Open-source data labeling tool. Heartex, Inc. Recuperado de <https://labelstud.io>
+
+
+
+
 
 
 
