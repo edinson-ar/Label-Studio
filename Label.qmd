@@ -182,12 +182,16 @@ Posteriormente, puedes entrenar modelos que identifiquen signos tempranos de est
 
 Label Studio no es solo una herramienta de etiquetado; es una plataforma flexible y escalable que facilita la gestión, automatización y optimización del proceso de etiquetado de datos. Su capacidad para integrarse con proyectos complejos de inteligencia artificial la convierte en una herramienta clave para diversas industrias, incluido el sector agrícola.
 
-En el contexto agrícola, Label Studio desempeña un papel fundamental al ofrecer funcionalidades avanzadas, como:
+En el contexto agrícola, Label Studio desempeña un papel fundamental al ofrecer funcionalidades avanzadas, como 
 
-Etiquetado inicial de imágenes de hojas: Puede realizarse de manera manual o automatizada.
-Entrenamiento de modelos de inteligencia artificial: Permite desarrollar modelos capaces de detectar problemas como plagas, enfermedades y estrés en los cultivos.
-Validación y refinamiento de modelos: Se logra utilizando nuevas imágenes etiquetadas, lo que mejora continuamente la precisión de las predicciones.
-Monitoreo continuo de cultivos: Facilita el análisis automatizado y constante de los campos para detectar cambios o problemas tempranamente.
+*Etiquetado inicial de imágenes de hojas*: Puede realizarse de manera manual o automatizada.
+
+*Entrenamiento de modelos de inteligencia artificial*: Permite desarrollar modelos capaces de detectar problemas como plagas, enfermedades y estrés en los cultivos.
+
+*Validación y refinamiento de modelos*: Se logra utilizando nuevas imágenes etiquetadas, lo que mejora continuamente la precisión de las predicciones.
+
+*Monitoreo continuo de cultivos*: Facilita el análisis automatizado y constante de los campos para detectar cambios o problemas tempranamente.
+
 El uso de esta herramienta contribuye significativamente a la modernización del sector agrícola. Al implementar un monitoreo automatizado y constante, se logran beneficios clave como mayor productividad, reducción de pérdidas económicas y un manejo más sostenible de los recursos disponibles.
 
 # REFERENCIAS BIBLIOGRÁFICAS
